@@ -1217,21 +1217,3 @@ axis equal tight;
 % end
 % ========================================================================
 ```
-
----
-
-## Conclusion
-This MATLAB live script provides a complete implementation of the ME5405 Computer Project with custom algorithms. All image processing operations are implemented from scratch without using MATLAB's built-in image processing toolbox functions.
-
-The code includes placeholders for numerical integration and optimization methods, allowing you to implement and test your own algorithms. Sections for hyperparameter tuning and preprocessing experimentation are clearly marked for your investigation.
-
-**Next Steps:**
-1. Save this as a `.mlx` file and run in MATLAB
-2. Load your actual image files (`chromo.txt` and `charact1.txt`)
-3. Load the training dataset (`p_dataset_26.zip`)
-4. Uncomment and run the classification sections
-5. Implement your own numerical methods in the placeholder sections
-6. Experiment with different hyperparameters and preprocessing techniques
-7. Document your findings in the report
-
-Good luck with your project!

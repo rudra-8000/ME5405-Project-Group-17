@@ -1,0 +1,13 @@
+# MATLAB temp files
+*.asv
+*.m~
+*.mex*
+*.mlapp
+*.mlx
+*.slx.r*
+*.autosave
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini

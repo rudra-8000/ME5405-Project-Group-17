@@ -238,9 +238,9 @@ plot_confusion_matrix(test_Y, knn_preds, CLASS_NAMES, ...
 %% SECTION 7 – CLASSIFIER 2: SUPPORT VECTOR MACHINE  (Task 8)
 %% ================================================================
 fprintf('\n=== SVM Classifier (fitcecoc – Statistics Toolbox) ===\n');
-svm_kernels   = {'linear','gaussian','polynomial'};
-svm_accs      = zeros(1,3);
-svm_mdls      = cell(1,3);
+svm_kernels   = {'linear','gaussian','polynomial','rbf'};
+svm_accs      = zeros(1,4);
+svm_mdls      = cell(1,4);
 
 for ki = 1:3
     fprintf('  Training SVM (%s) ...\n', svm_kernels{ki});
